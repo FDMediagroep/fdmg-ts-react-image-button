@@ -19,17 +19,17 @@ var ImageButton = /** @class */ (function (_super) {
     function ImageButton(props) {
         var _this = _super.call(this, props) || this;
         _this.props = props;
-        console.debug('ImageButton component', props);
+        console.info('ImageButton component', props);
         return _this;
     }
     ImageButton.prototype.componentDidMount = function () {
-        console.debug('ImageButton mounted');
+        console.info('ImageButton mounted');
     };
     ImageButton.prototype.componentWillUnmount = function () {
-        console.debug('ImageButton will unmount');
+        console.info('ImageButton will unmount');
     };
     ImageButton.prototype.componentWillReceiveProps = function (nextProps) {
-        console.debug('ImageButton next props', nextProps);
+        console.info('ImageButton next props', nextProps);
     };
     ImageButton.prototype.render = function () {
         return (React.createElement("img", { onClick: this.props.onClick, src: this.props.src, alt: this.props.alt, className: this.props.className }));
