@@ -10,19 +10,19 @@ export default class ImageButton extends React.Component {
     constructor(props: any) {
         super(props);
         this.props = props;
-        console.debug('ImageButton component', props);
+        console.info('ImageButton component', props);
     }
 
     componentDidMount() {
-        console.debug('ImageButton mounted');
+        console.info('ImageButton mounted');
     }
         
     componentWillUnmount() {
-        console.debug('ImageButton will unmount');
+        console.info('ImageButton will unmount');
     }
 
     componentWillReceiveProps(nextProps) {
-        console.debug('ImageButton next props', nextProps);
+        console.info('ImageButton next props', nextProps);
     }
 
     render() {
