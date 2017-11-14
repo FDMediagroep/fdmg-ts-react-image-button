@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/FDMediagroep/fdmg-ts-react-image-button.svg?branch=master)](https://travis-ci.org/FDMediagroep/fdmg-ts-react-image-button)
-[![Coverage Status](https://coveralls.io/repos/github/willemliufdmg/fdmg-ts-react-image-button/badge.svg?branch=master)](https://coveralls.io/github/willemliufdmg/fdmg-ts-react-image-button?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/FDMediagroep/fdmg-ts-react-image-button/badge.svg?branch=master)](https://coveralls.io/github/FDMediagroep/fdmg-ts-react-image-button?branch=master)
 
 # fdmg-ts-react-image-button
 [ReactJS](https://reactjs.org/) ImageButton component. This component renders an image with onClick hook.
