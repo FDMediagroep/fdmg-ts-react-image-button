@@ -6,6 +6,8 @@
 
 ## Installation
 - Run `npm i --save-dev fdmg-ts-react-image-button`
+or
+- Run `yarn add fdmg-ts-react-image-button --dev`
 
 ## Usage
 ### TypeScript
