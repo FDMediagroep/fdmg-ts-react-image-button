@@ -1,8 +1,8 @@
 {
   "name": "fdmg-ts-react-image-button",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ImageButton component",
-  "main": "src/ImageButton.tsx",
+  "main": "ImageButton.js",
   "scripts": {
     "test": "jest",
     "updateSnapshot": "jest --updateSnapshot",
