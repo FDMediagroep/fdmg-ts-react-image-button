@@ -1,6 +1,6 @@
 {
   "name": "fdmg-ts-react-image-button",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "ImageButton component",
   "main": "dist/ImageButton.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@git.prod.sup.fdmg.org:wliu/fdmg-ts-react-image-button.git"
+    "url": "git@github.com:willemliufdmg/fdmg-ts-react-image-button.git"
   },
   "author": "Willem Liu, Alexander Eerenberg",
   "license": "ISC",
