@@ -1,9 +1,11 @@
 {
   "name": "fdmg-ts-react-image-button",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "ReactJS ImageButton component",
   "main": "dist/ImageButton.js",
+  "types": "dist/ImageButton.d.ts",
   "scripts": {
+    "release": "tsc -d",
     "test": "jest",
     "updateSnapshot": "jest --updateSnapshot",
     "u": "npm test -- -u"
