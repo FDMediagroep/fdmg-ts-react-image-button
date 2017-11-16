@@ -31,12 +31,14 @@ export default class foo {
     }
 
     render() {
-        return (<ImageButton
-            src={"img/button.svg"} 
-            onClick={this.clickHandler.bind(this)}
-            className="image-btn btn"
-            alt="Special button"
-        />);
+        return (
+            <ImageButton
+                src={"img/button.svg"} 
+                onClick={this.clickHandler.bind(this)}
+                className="image-btn btn"
+                alt="Special button"
+            />
+        );
     }
 }
 ```
