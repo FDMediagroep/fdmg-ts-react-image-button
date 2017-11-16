@@ -40,3 +40,8 @@ export default class foo {
     }
 }
 ```
+
+### Resulting HTML
+```
+    <img src="img/button.svg" alt="Special button" class="image-btn btn" />
+```
