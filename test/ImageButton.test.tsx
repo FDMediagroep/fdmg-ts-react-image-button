@@ -13,8 +13,14 @@ beforeAll(() => {
 });
 
 test('ImageButton renders correctly', () => {
-    const component = renderer.create(
+    let component = renderer.create(
         <ImageButton onClick={()=>{}} alt={"alt-text"} src={'test.png'} className={'css-class-name'}/>
+    );
+    let tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
+
+    component = renderer.create(
+        <ImageButton alt={"alt-text"} src={'test.png'} className={'css-class-name'}/>
     );
     let tree = component.toJSON();
     expect(tree).toMatchSnapshot();

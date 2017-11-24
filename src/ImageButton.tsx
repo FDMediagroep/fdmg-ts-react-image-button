@@ -3,7 +3,7 @@ import {MouseEvent} from "react";
 
 export interface Props {
     className?: string;
-    onClick: (event: MouseEvent<HTMLImageElement>) => void;
+    onClick?: (event: MouseEvent<HTMLImageElement>) => void;
     alt: string;
     src: string;
 }

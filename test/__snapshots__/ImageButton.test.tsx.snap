@@ -8,3 +8,12 @@ exports[`ImageButton renders correctly 1`] = `
   src="test.png"
 />
 `;
+
+exports[`ImageButton renders correctly 2`] = `
+<img
+  alt="alt-text"
+  className="css-class-name"
+  onClick={undefined}
+  src="test.png"
+/>
+`;
