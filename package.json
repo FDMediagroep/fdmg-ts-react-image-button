@@ -1,6 +1,6 @@
 {
   "name": "fdmg-ts-react-image-button",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "ReactJS ImageButton component",
   "main": "dist/ImageButton.js",
   "types": "dist/ImageButton.d.ts",
@@ -23,7 +23,6 @@
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.0",
     "enzyme-to-json": "^3.2.2",
-    "fdmg-ts-react-image": "^1.0.0",
     "fs-extra": "^4.0.2",
     "jest": "^21.2.1",
     "react": "^16.1.1",
@@ -54,5 +53,7 @@
     ],
     "mapCoverage": true
   },
-  "dependencies": {}
+  "dependencies": {
+    "fdmg-ts-react-image": "^1.0.0"
+  }
 }
