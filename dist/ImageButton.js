@@ -32,7 +32,7 @@ var ImageButton = /** @class */ (function (_super) {
         console.info('ImageButton next props', nextProps);
     };
     ImageButton.prototype.render = function () {
-        return (React.createElement("img", { onClick: this.props.onClick, src: this.props.src, alt: this.props.alt, className: this.props.className }));
+        return (React.createElement("img", { onClick: this.props.onClick, src: this.props.src, alt: this.props.alt, className: this.props.className, role: this.props.onClick ? 'button' : undefined }));
     };
     return ImageButton;
 }(React.Component));

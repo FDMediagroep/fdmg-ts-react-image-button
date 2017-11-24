@@ -22,7 +22,7 @@ test('ImageButton renders correctly', () => {
     component = renderer.create(
         <ImageButton alt={"alt-text"} src={'test.png'} className={'css-class-name'}/>
     );
-    let tree = component.toJSON();
+    tree = component.toJSON();
     expect(tree).toMatchSnapshot();
 });
 

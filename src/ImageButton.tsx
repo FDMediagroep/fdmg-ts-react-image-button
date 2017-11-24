@@ -39,7 +39,8 @@ export default class ImageButton extends React.Component<Props, any> {
                 onClick={this.props.onClick}
                 src={this.props.src}
                 alt={this.props.alt}
-                className={this.props.className} 
+                className={this.props.className}
+                role={this.props.onClick?'button':undefined}
             />
         );
     }

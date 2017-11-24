@@ -5,6 +5,7 @@ exports[`ImageButton renders correctly 1`] = `
   alt="alt-text"
   className="css-class-name"
   onClick={[Function]}
+  role="button"
   src="test.png"
 />
 `;
@@ -14,6 +15,7 @@ exports[`ImageButton renders correctly 2`] = `
   alt="alt-text"
   className="css-class-name"
   onClick={undefined}
+  role={undefined}
   src="test.png"
 />
 `;
