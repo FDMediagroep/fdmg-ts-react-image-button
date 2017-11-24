@@ -1,21 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ImageButton renders correctly 1`] = `
-<img
-  alt="alt-text"
+<span
+  aria-label="alt-text"
   className="css-class-name"
   onClick={[Function]}
   role="button"
-  src="test.png"
-/>
+  tabIndex={0}
+>
+  <img
+    alt="alt-text"
+    className={undefined}
+    src="test.png"
+  />
+</span>
 `;
 
 exports[`ImageButton renders correctly 2`] = `
-<img
-  alt="alt-text"
+<span
+  aria-label="alt-text"
   className="css-class-name"
-  onClick={undefined}
-  role={undefined}
-  src="test.png"
-/>
+  onClick={[Function]}
+  role="button"
+  tabIndex="1"
+>
+  <img
+    alt="alt-text"
+    className={undefined}
+    src="test.png"
+  />
+</span>
 `;

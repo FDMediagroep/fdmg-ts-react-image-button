@@ -47,5 +47,10 @@ export default class foo {
 
 ### Resulting HTML
 ```
-    <img src="img/button.svg" alt="Special button" class="image-btn btn" role="button"/>
+<span class="image-btn btn"
+      role="button"
+      tabIndex="0"
+      aria-label="Special button">
+    <Image alt="Special button" src="img/button.svg"/>
+</span>
 ```

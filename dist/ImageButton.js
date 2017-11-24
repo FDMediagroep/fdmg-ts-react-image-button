@@ -11,6 +11,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
+var fdmg_ts_react_image_1 = require("fdmg-ts-react-image");
 /**
  * Renders an image with an onClick hook for parent component.
  */
@@ -32,7 +33,8 @@ var ImageButton = /** @class */ (function (_super) {
         console.info('ImageButton next props', nextProps);
     };
     ImageButton.prototype.render = function () {
-        return (React.createElement("img", { onClick: this.props.onClick, src: this.props.src, alt: this.props.alt, className: this.props.className, role: this.props.onClick ? 'button' : undefined }));
+        return (React.createElement("span", { onClick: this.props.onClick, className: this.props.className, role: "button", tabIndex: this.props.tabIndex ? this.props.tabIndex : 0, "aria-label": this.props.alt },
+            React.createElement(fdmg_ts_react_image_1.default, { alt: this.props.alt, src: this.props.src })));
     };
     return ImageButton;
 }(React.Component));

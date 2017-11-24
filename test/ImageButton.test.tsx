@@ -20,7 +20,7 @@ test('ImageButton renders correctly', () => {
     expect(tree).toMatchSnapshot();
 
     component = renderer.create(
-        <ImageButton alt={"alt-text"} src={'test.png'} className={'css-class-name'}/>
+        <ImageButton onClick={()=>{}} alt={"alt-text"} src={'test.png'} className={'css-class-name'} tabIndex='1'/>
     );
     tree = component.toJSON();
     expect(tree).toMatchSnapshot();

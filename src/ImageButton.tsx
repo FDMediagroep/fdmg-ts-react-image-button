@@ -1,11 +1,13 @@
 import * as React from 'react';
 import {MouseEvent} from "react";
+import Image from "fdmg-ts-react-image";
 
 export interface Props {
     className?: string;
-    onClick?: (event: MouseEvent<HTMLImageElement>) => void;
+    onClick: (event: MouseEvent<HTMLImageElement>) => void;
     alt: string;
     src: string;
+    tabIndex?: number;
 }
 
 /**
@@ -35,13 +37,13 @@ export default class ImageButton extends React.Component<Props, any> {
 
     render() {
         return (
-            <img 
-                onClick={this.props.onClick}
-                src={this.props.src}
-                alt={this.props.alt}
-                className={this.props.className}
-                role={this.props.onClick?'button':undefined}
-            />
+            <span onClick={this.props.onClick}
+                  className={this.props.className}
+                  role="button"
+                  tabIndex={this.props.tabIndex?this.props.tabIndex:0}
+                  aria-label={this.props.alt}>
+                <Image alt={this.props.alt} src={this.props.src}/>
+            </span>
         );
     }
 }
