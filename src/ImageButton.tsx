@@ -20,7 +20,7 @@ export default class ImageButton extends React.Component<Props, any> {
     constructor(props: Props) {
         super(props);
         this.props = props;
-        console.info('ImageButton component', props);
+        console.info('ImageButton composite', props);
     }
 
     componentDidMount() {
