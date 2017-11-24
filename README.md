@@ -51,6 +51,6 @@ export default class foo {
       role="button"
       tabIndex="0"
       aria-label="Special button">
-    <Image alt="Special button" src="img/button.svg"/>
+    <img alt="Special button" src="img/button.svg"/>
 </span>
 ```
