@@ -20,7 +20,7 @@ var ImageButton = /** @class */ (function (_super) {
     function ImageButton(props) {
         var _this = _super.call(this, props) || this;
         _this.props = props;
-        console.info('ImageButton component', props);
+        console.info('ImageButton composite', props);
         return _this;
     }
     ImageButton.prototype.componentDidMount = function () {

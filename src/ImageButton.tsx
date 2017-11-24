@@ -4,7 +4,7 @@ import Image from "fdmg-ts-react-image";
 
 export interface Props {
     className?: string;
-    onClick: (event: MouseEvent<HTMLImageElement>) => void;
+    onClick: (event: MouseEvent<HTMLSpanElement>) => void;
     alt: string;
     src: string;
     tabIndex?: number;
