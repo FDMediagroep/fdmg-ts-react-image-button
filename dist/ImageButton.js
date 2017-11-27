@@ -23,15 +23,6 @@ var ImageButton = /** @class */ (function (_super) {
         console.info('ImageButton composite', props);
         return _this;
     }
-    ImageButton.prototype.componentDidMount = function () {
-        console.info('ImageButton mounted');
-    };
-    ImageButton.prototype.componentWillUnmount = function () {
-        console.info('ImageButton will unmount');
-    };
-    ImageButton.prototype.componentWillReceiveProps = function (nextProps) {
-        console.info('ImageButton next props', nextProps);
-    };
     ImageButton.prototype.render = function () {
         return (React.createElement("span", { onClick: this.props.onClick, className: this.props.className, role: "button", tabIndex: this.props.tabIndex ? this.props.tabIndex : 0, "aria-label": this.props.alt },
             React.createElement(fdmg_ts_react_image_1.default, { alt: this.props.alt, src: this.props.src })));

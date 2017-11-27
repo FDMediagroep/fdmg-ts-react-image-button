@@ -7,7 +7,7 @@ export interface Props {
     onClick: (event: MouseEvent<HTMLSpanElement>) => void;
     alt: string;
     src: string;
-    tabIndex?: number;
+    tabIndex?: number|any;
 }
 
 /**
@@ -21,18 +21,6 @@ export default class ImageButton extends React.Component<Props, any> {
         super(props);
         this.props = props;
         console.info('ImageButton composite', props);
-    }
-
-    componentDidMount() {
-        console.info('ImageButton mounted');
-    }
-        
-    componentWillUnmount() {
-        console.info('ImageButton will unmount');
-    }
-
-    componentWillReceiveProps(nextProps) {
-        console.info('ImageButton next props', nextProps);
     }
 
     render() {
