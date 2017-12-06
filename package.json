@@ -5,7 +5,7 @@
   "main": "dist/ImageButton.js",
   "types": "dist/ImageButton.d.ts",
   "scripts": {
-    "release": "tsc -d",
+    "release": "npm install && yarn && tsc -d",
     "test": "jest",
     "updateSnapshot": "jest --updateSnapshot",
     "u": "npm test -- -u"
