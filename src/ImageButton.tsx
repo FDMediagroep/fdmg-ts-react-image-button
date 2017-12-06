@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {MouseEvent} from "react";
-import Image from "fdmg-ts-react-image";
+import Img from "fdmg-ts-react-image";
 
 export interface Props {
     className?: string;
@@ -30,7 +30,7 @@ export default class ImageButton extends React.Component<Props, any> {
                   role="button"
                   tabIndex={this.props.tabIndex?this.props.tabIndex:0}
                   aria-label={this.props.alt}>
-                <Image alt={this.props.alt} src={this.props.src}/>
+                <Img alt={this.props.alt} src={this.props.src}/>
             </span>
         );
     }
