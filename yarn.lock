@@ -10,7 +10,7 @@
   version "8.0.57"
   resolved "https://registry.npmjs.org/@types/node/-/node-8.0.57.tgz#e5d8b4dc112763e35cfc51988f4f38da3c486d99"
 
-"@types/react@^16.0.27":
+"@types/react@^16.0.28":
   version "16.0.28"
   resolved "https://registry.npmjs.org/@types/react/-/react-16.0.28.tgz#eb0b31272528da8f20477ec27569c4f767315b33"
 
@@ -960,7 +960,7 @@ fbjs@^0.8.16:
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.9"
 
-fdmg-ts-react-image@^1.0.2:
+fdmg-ts-react-image@^1.0.4:
   version "1.0.4"
   resolved "https://registry.npmjs.org/fdmg-ts-react-image/-/fdmg-ts-react-image-1.0.4.tgz#a8ca8e3c250ec22759d27e79abdb317fdd4aff89"
 
