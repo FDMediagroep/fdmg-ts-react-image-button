@@ -20,16 +20,17 @@ export default class ImageButton extends React.Component<Props, any> {
     constructor(props: Props) {
         super(props);
         this.props = props;
-        console.info('ImageButton composite', props);
     }
 
     render() {
         return (
-            <span onClick={this.props.onClick}
-                  className={this.props.className}
-                  role="button"
-                  tabIndex={this.props.tabIndex?this.props.tabIndex:0}
-                  aria-label={this.props.alt}>
+            <span
+                onClick={this.props.onClick}
+                className={this.props.className}
+                role="button"
+                tabIndex={this.props.tabIndex ? this.props.tabIndex : 0}
+                aria-label={this.props.alt}
+            >
                 <Img alt={this.props.alt} src={this.props.src}/>
             </span>
         );

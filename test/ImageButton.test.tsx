@@ -6,32 +6,35 @@ import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 import ImageButton from "../src/ImageButton";
 
-console.info = function() {};
+console.info = () => {};
 
-beforeAll(() => {
-    Enzyme.configure({ adapter: new Adapter() });
-});
+describe('ImageButton', () => {
+    const emptyFn = () => {};
+    beforeAll(() => {
+        Enzyme.configure({ adapter: new Adapter() });
+    });
 
-test('ImageButton renders correctly', () => {
-    let component = renderer.create(
-        <ImageButton onClick={()=>{}} alt={"alt-text"} src={'test.png'} className={'css-class-name'}/>
-    );
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    test('renders correctly', () => {
+        let component = renderer.create(
+            <ImageButton onClick={emptyFn} alt={"alt-text"} src={'test.png'} className={'css-class-name'}/>
+        );
+        let tree = component.toJSON();
+        expect(tree).toMatchSnapshot();
 
-    component = renderer.create(
-        <ImageButton onClick={()=>{}} alt={"alt-text"} src={'test.png'} className={'css-class-name'} tabIndex='1'/>
-    );
-    tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
-});
+        component = renderer.create(
+            <ImageButton onClick={emptyFn} alt={"alt-text"} src={'test.png'} className={'css-class-name'} tabIndex='1'/>
+        );
+        tree = component.toJSON();
+        expect(tree).toMatchSnapshot();
+    });
 
-test('ImageButton buttons clicked', () => {
-    const spy = jest.fn();
-    let component = mount(
-        <ImageButton onClick={spy} alt={"alt-text"} src={'test.png'} className={'css-class-name'}/>
-    );
+    test('buttons clicked', () => {
+        const spy = jest.fn();
+        const component = mount(
+            <ImageButton onClick={spy} alt={"alt-text"} src={'test.png'} className={'css-class-name'}/>
+        );
 
-    component.simulate('click');
-    expect(spy).toHaveBeenCalled();
+        component.simulate('click');
+        expect(spy).toHaveBeenCalled();
+    });
 });

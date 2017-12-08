@@ -1,12 +1,13 @@
 {
   "name": "fdmg-ts-react-image-button",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "ReactJS ImageButton component",
   "main": "dist/ImageButton.js",
   "types": "dist/ImageButton.d.ts",
   "scripts": {
-    "release": "npm install && yarn && tsc -d",
+    "release": "npm update && npm install && yarn && npm run test && npm run lint && tsc -d",
     "test": "jest",
+    "lint": "tslint -p .",
     "updateSnapshot": "jest --updateSnapshot",
     "u": "npm test -- -u"
   },
@@ -25,11 +26,14 @@
     "enzyme-to-json": "^3.2.2",
     "fs-extra": "^4.0.3",
     "jest": "^21.2.1",
+    "jest-cli": "^21.2.1",
     "raf": "^3.4.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
     "ts-jest": "^21.2.4",
+    "tslint": "^5.8.0",
+    "tslint-react": "^3.2.0",
     "typescript": "^2.6.2"
   },
   "jest": {
