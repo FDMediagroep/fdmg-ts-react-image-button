@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {MouseEvent} from "react";
-import Img from "fdmg-ts-react-image";
+import Img from "@fdmg/ts-react-image";
 
 export interface Props {
     className?: string;

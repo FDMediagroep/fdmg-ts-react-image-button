@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@fdmg/ts-react-image@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/@fdmg/ts-react-image/-/ts-react-image-1.0.5.tgz#fdec7250128489691cc7185bb0792eb5e193be9d"
+
 "@types/jest@^21.1.8":
   version "21.1.8"
   resolved "https://registry.npmjs.org/@types/jest/-/jest-21.1.8.tgz#d497213725684f1e5a37900b17a47c9c018f1a97"
@@ -10,9 +14,9 @@
   version "8.0.57"
   resolved "https://registry.npmjs.org/@types/node/-/node-8.0.57.tgz#e5d8b4dc112763e35cfc51988f4f38da3c486d99"
 
-"@types/react@^16.0.28":
-  version "16.0.28"
-  resolved "https://registry.npmjs.org/@types/react/-/react-16.0.28.tgz#eb0b31272528da8f20477ec27569c4f767315b33"
+"@types/react@^16.0.31":
+  version "16.0.31"
+  resolved "https://registry.npmjs.org/@types/react/-/react-16.0.31.tgz#5285da62f3ac62b797f6d0729a1d6181f3180c3e"
 
 abab@^1.0.3:
   version "1.0.4"
@@ -788,9 +792,9 @@ enzyme-adapter-utils@^1.1.0:
     object.assign "^4.0.4"
     prop-types "^15.5.10"
 
-enzyme-to-json@^3.2.2:
-  version "3.2.2"
-  resolved "https://registry.npmjs.org/enzyme-to-json/-/enzyme-to-json-3.2.2.tgz#110047c68dda97aaeb7af3cee7d995fe3d17e82a"
+enzyme-to-json@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.npmjs.org/enzyme-to-json/-/enzyme-to-json-3.3.0.tgz#553e23a09ffb4b0cf09287e2edf9c6539fddaa84"
   dependencies:
     lodash "^4.17.4"
 
@@ -959,10 +963,6 @@ fbjs@^0.8.16:
     promise "^7.1.1"
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.9"
-
-fdmg-ts-react-image@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.npmjs.org/fdmg-ts-react-image/-/fdmg-ts-react-image-1.0.4.tgz#a8ca8e3c250ec22759d27e79abdb317fdd4aff89"
 
 filename-regex@^2.0.0:
   version "2.0.1"
