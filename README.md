@@ -4,6 +4,8 @@
 [![npm version](https://badge.fury.io/js/%40fdmg%2Fts-react-image-button.svg)](https://badge.fury.io/js/%40fdmg%2Fts-react-image-button)
 
 # fdmg-ts-react-image-button
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/FDMediagroep/fdmg-ts-react-image-button.svg)](https://greenkeeper.io/)
 [ReactJS](https://reactjs.org/) ImageButton component. This component renders an image with onClick hook.
 
 ## Installation
