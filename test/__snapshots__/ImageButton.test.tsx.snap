@@ -10,7 +10,6 @@ exports[`ImageButton renders correctly 1`] = `
 >
   <img
     alt="alt-text"
-    className={undefined}
     src="test.png"
   />
 </span>
@@ -26,7 +25,6 @@ exports[`ImageButton renders correctly 2`] = `
 >
   <img
     alt="alt-text"
-    className={undefined}
     src="test.png"
   />
 </span>
