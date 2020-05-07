@@ -1,4 +1,4 @@
-
+> :exclamation: **DEPRECATED** :exclamation: : Superseded by @fdmg/design-system. See: https://github.com/FDMediagroep/fd-design-system
 
 # fdmg-ts-react-image-button
 
